@@ -1,0 +1,176 @@
+body {
+  color: #354C5C;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_section {
+  border-bottom: 1px solid #DCDCDC;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.page_title {
+  font-family: 'Qanelas', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.title_description {
+  font-family: 'Qanelas', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.page_subtitle {
+  font-family: 'Qanelas', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.calc_form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.quality_form {
+  display: grid;
+  grid-template-columns: repeat(2, 128px);
+  grid-template-rows: repeat(2, 50px);
+  gap: 20px;
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 35px;
+  padding-top: 20px;
+}
+
+.quality_section {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page_input {
+  border: 1px solid #DCDCDC;
+  height: 40px;
+  width: 264px;
+  border-radius: 4px;
+  font-family: 'Qanelas', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.selectBrand {
+  border: 1px solid #DCDCDC;
+  height: 40px;
+  width: 264px;
+  border-radius: 4px;
+  font-family: 'Qanelas', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.result_section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+.footnote {
+  font-family: 'Qanelas', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #9498A1;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.page_button {
+  color: #354C5C;
+  border: 1px solid #DCDCDC;
+  border-radius: 4px;
+  font-family: 'Qanelas', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 128px;
+  height: 50px;
+  background-color: #FFF;
+}
+
+.page_button:hover {
+  cursor: pointer;
+}
+
+.page_button.active {
+  border: 2px solid #EB891D;
+  color: #354C5C;
+  font-weight: 600;
+  font-family: 'Qanelas', sans-serif;
+}
+
+.result_button {
+  background-color: #EB891D;
+  color: #FFF;
+  font-family: 'Qanelas', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  width: 288px;
+  height: 44px;
+  border: none;
+  border-radius: 4px;
+  letter-spacing: 5%;
+}
+
+.result_button:hover {
+  cursor: pointer;
+}
+
+.result_button.active {
+  border: 2px solid #FFF;
+  border-radius: 6px;
+}
+
+.popup {
+  border-radius: 16px;
+  background-color: #FFF;
+  border: none;
+}
+
+.popup::backdrop {
+  background-color: rgb(0, 0, 0, 0.75);
+}
+
+.popup-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.popup-header {
+  font-family: 'Qanelas', sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 24px;
+  color: #354C5C;
+}
+
+.popup-text {
+  font-family: 'Qanelas', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #354C5C;
+  text-align: center;
+}
